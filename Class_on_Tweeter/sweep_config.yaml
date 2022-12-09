@@ -1,0 +1,45 @@
+method: random
+
+metric:
+  name: val_binary_acc
+  goal: maximize
+
+parameters:
+
+  # Ensembles de données
+  global_ds_size: 
+    value: 1000 # Max pour Tweeter : 1526724
+  train_split: 
+    value: 0.7
+  val_split:
+    value: 0.15
+
+  # Grandeurs d'entraînement
+  batch_size: 
+    value: 50
+  epochs: 
+    value: 5
+  lr:
+    value: 8e-4
+
+
+  # Grandeurs du modèle
+  vocab_size:
+    values: [15000, 20000, 30000]
+  max_length: 
+    value: 200
+  embedding_dim:
+    values: [100, 200, 500]
+  drop1:
+    values: [0.2, 0.3, 0.4]
+  drop2: 
+    values: [0.2, 0.3, 0.4]
+
+  # Callbacks
+  callbacks_log_dir: 
+    value: logs/run/ 
+  early_stopping_min_delta: 
+    value: 0.001
+    
+  
+      

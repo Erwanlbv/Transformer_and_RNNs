@@ -1,0 +1,25 @@
+La traduction des phrases est vraiment approximative sur un grand nombre de données.
+Je ne sais pas si on peut vraiment parler de "langue française" en regardant cet ensemble de données.
+Le problème est que cela touche directement le sens des phrases..  À moins de vouloir entrainer un modèle sur une langue 
+inexistante définie par cette base de données il n'y aurait pas trop de cohérence à étudier des entraînements & résultats
+sur cette base de données.
+
+
+Ci-joint le nombre de tweets que je considère comme "traductio mauvaise / label étrange "  :
+
+
+0,J'ai plongé plusieurs fois pour la balle. A réussi à économiser 50% le reste sort de limites
+0,Tout mon corps a des démangeaisons et comme si c'était en feu
+0,Je meurs?
+0,J'aimerais que je le regarde avec vous !! Tu me manques et comment était la première?
+0,La scène de la mort de Hollis va humer sévèrement de regarder le film en train de se débrouiller.
+0,Ahh ive toujours voulu voir le loyer adorer la bande originale !!
+0,"Je vous ai cuisiné un gâteau, mais je l'ai appris"
+
+
+Sur les 25 premiers tweets (et vraiment j'ai été très peu regardant sur la syntaxe / la grammaire / la structure de la phrase)
+on a déjà 7 phrases qui n'ont aucun sens / le label associé est étrange. C'est beaucoup trop.
+J'ai parcouru la base de données en diagonale, c'est pareil partout. Idem pour les étiquettes positives.
+
+Qu'est-ce que tu en dis Houssam ? Je conserve ? On passe sur la base de données en anglais (non traduite) ? Tu as une autre base 
+de données type en français et je m'intéresse à celle là ?

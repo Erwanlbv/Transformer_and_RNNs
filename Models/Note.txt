@@ -1,0 +1,15 @@
+Petit imprévu : torchtext (la librairie de pytorch pour tout ce qui touche au traitement de texte)
+a été complètement restructurée il y un an. 
+Les exemples que je suivais étaient donc périmés et j'ai passé toute mon aprèm hier à 
+essayer de comprendre pourquoi (je m'en suis rendu compte en fin de soirée). 
+
+Sauf que les nouveaux exemples / didacticiels de démarrages sont franchement mauvais
+(les gars de torch n'expiquent rien, ils ont complètement baclés le truc) et je ne trouve
+pas d'autres ressources pour l'instant sur internet. J'en suis donc à lire le code 
+source de leur page github et je viens de voir que les tokenizers d'hugging face ne 
+sont pas encore pris en charge dans leurs fonctions de pipeline.
+Or jusqu'à présent c'était les tokenizers que j'utilisais.
+Ils supportent en revanche spacy et moses, je vais donc utiliser ceux là pour les
+premières démo et voir ensuite s'il n'est pas possible de téléchager directement 
+les vocabs pour plus tard.
+
