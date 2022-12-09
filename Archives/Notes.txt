@@ -1,0 +1,57 @@
+# -------------------------------------- #
+#        LISTE DE LIENS UTILES           #
+#--------------------------------------- #
+
+Liens de Sylvain :
+    https://jalammar.github.io/illustrated-transformer/
+    https://github.com/charlesollion/dlexperiments
+    http://nlp.seas.harvard.edu/annotated-transformer/
+
+
+Kaggle de la BDD : 
+    https://www.kaggle.com/datasets/hbaflast/french-twitter-sentiment-analysis
+    Elle vient d'où d'ailleurs ?..
+
+BDD Kaggles similaires :
+    https://www.kaggle.com/competitions/tweet-sentiment-extraction
+    https://www.kaggle.com/search?q=twitter+sentiment+analysis+in%3Adatasets (BDD "Twitter Sentiment Analysis")
+
+
+SemEval : (Sorte de challenge sur des tâches d'analyse de sentiments)
+    https://semeval.github.io/SemEval2022/cft
+    https://github.com/SemEval/SemEval2021/blob/master/awards.md (Résultats de 2021)
+    https://competitions.codalab.org/competitions/33556#learn_the_details (Compétition - en cours - pour 2022)
+
+
+Quelques infos sur l'édition de 2017 (qui semble avoir été la dernière avant une reprise en 2021) :
+    https://alt.qcri.org/semeval2017/task4/data/uploads/semeval2017-task4.pdf (les objectifs de l'époque)
+
+
+Compte Twitter de SemEval (probablement des infos intéressantes) :
+    https://twitter.com/structured_sent
+
+
+ACL Anthology (autre sorte de challenge ?) :
+    https://aclanthology.org  
+    En particulier : https://aclanthology.org/volumes/2021.semeval-1/
+
+
+
+Thread TowardDs (très basique) :
+    https://towardsdatascience.com/sentiment-analysis-with-pretrained-transformers-using-pytorch-420bbc1a48cd
+
+
+Google Colab :
+    https://colab.research.google.com/github/bentrevett/pytorch-sentiment-analysis/blob/master/6%20-%20Transformers%20for%20Sentiment%20Analysis.ipynb
+
+
+
+Librairie à implémenter :
+Regex / Spacy / NLTK 
+
+À aller voir :
+    Camembert / Albert / FlauBERT / Transformer Var / 
+
+
+
+

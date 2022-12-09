@@ -1,0 +1,2 @@
+Voir la page d'explication de TensorfFlow :
+- https://www.tensorflow.org/guide/keras/preprocessing_layers
